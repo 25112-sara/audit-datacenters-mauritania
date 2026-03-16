@@ -1,0 +1,111 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\title{Analyse de la consommation énergétique des Centres de Données en Mauritanie}
+\author{Rokia  \And Sara \And Aicha }
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Les centres de données constituent l’infrastructure essentielle du numérique moderne. 
+En Mauritanie, le développement des télécommunications et des services en ligne 
+entraîne une augmentation progressive de la demande énergétique. 
+Ce travail propose une analyse comparative de la consommation énergétique 
+de plusieurs centres de données opérant localement. 
+L’objectif est d’identifier les facteurs influençant la consommation, 
+notamment la capacité de stockage, le nombre de serveurs et le type de refroidissement, 
+afin de proposer des pistes d’amélioration de l’efficacité énergétique.
+\end{abstract}
+
+\section{Introduction}
+
+La transformation numérique a conduit à une croissance rapide des centres de données. 
+Ces infrastructures consomment une quantité importante d’électricité 
+pour alimenter les serveurs et maintenir une température optimale. 
+
+En Mauritanie, l’expansion des opérateurs télécoms et des services cloud 
+rend nécessaire l’analyse de leur impact énergétique.
+
+\section{Problématique}
+
+Comment analyser la consommation énergétique des centres de données en Mauritanie 
+et identifier les leviers d’optimisation tout en maintenant la performance des services ?
+
+\section{Méthodologie}
+
+Cette étude repose sur une analyse comparative basée sur des estimations académiques. 
+Les données suivantes sont utilisées à des fins pédagogiques.
+
+L’indicateur principal étudié est le PUE (Power Usage Effectiveness) :
+
+\[
+PUE = \frac{\text{Énergie totale consommée}}{\text{Énergie utilisée par les équipements IT}}
+\]
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{data.png}
+\caption{Comparaison de la consommation énergétique des centres de données en Mauritanie}
+\end{figure}
+
+
+
+\section{Résultats et Analyse}
+
+Les centres disposant d’un système de refroidissement liquide 
+présentent généralement une meilleure efficacité énergétique. 
+Bien que leur consommation totale soit plus élevée, 
+leur performance par unité de stockage est plus optimisée.
+
+Les centres utilisant un refroidissement à air 
+affichent une consommation proportionnellement plus importante 
+par rapport à leur capacité.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{diagramme.png}
+\caption{Diagramme comparatif de la consommation énergétique des centres de données en Mauritanie}
+\end{figure}
+
+Le diagramme met en évidence les différences de consommation 
+entre les centres étudiés. 
+On observe que les centres de grande capacité consomment davantage d’énergie, 
+mais bénéficient d’une meilleure optimisation technologique.
+
+\section{Conclusion}
+
+L’analyse montre que la consommation énergétique des centres de données 
+dépend principalement de la capacité installée et du système de refroidissement. 
+
+L’amélioration de l’efficacité énergétique peut passer par :
+\begin{itemize}
+\item L’adoption du refroidissement liquide,
+\item L’optimisation de la gestion thermique,
+\item L’intégration d’énergies renouvelables.
+\end{itemize}
+
+Cette étude met en évidence l’importance d’une gestion énergétique responsable 
+dans le développement numérique en Mauritanie.
+
+\begin{thebibliography}{9}
+
+\bibitem{ref1}
+International Energy Agency, Data Centres and Energy Report, 2023.
+
+\bibitem{ref2}
+A. Shehabi et al., Data Center Energy Usage Report, 2022.
+
+\end{thebibliography}
+
+\end{document}
